@@ -24,12 +24,6 @@
     /* Add more styles for the bootcamp name, such as font-size */
 }
 
-
-
-.menu .item:hover{
-    background-color: #f5f5f5;
-}
-/*
 .menu .item {
     display: flex;
     align-items: center;
@@ -38,21 +32,17 @@
     border-top: 1;
     cursor:pointer;
     font-size: 16px;
-}*/
-.menu .item {
-    padding: 10px;
-    border-bottom: 1px solid #ccc; /* Light grey border for separation */
-    display: flex;
-    justify-content: space-between; /* Align link to left and dropdown icon to right */
-    align-items: center; /* Center items vertically */
-    cursor: pointer;
 }
 
-.menu .item:hover {
-    background-color: #3e4e60; /* Darker shade for hover state */
+.menu .item:hover{
+    background-color: #f5f5f5;
 }
-
-/* Dropdown icon style */
-.menu .dropdown-icon {
-    font-size: 10px;
+.item a{
+    color: #7F7F7F;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    text-decoration: none;
 }
